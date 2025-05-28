@@ -168,7 +168,7 @@ export function HeroCarousel() {
   }
 
   return (
-    <section className="relative overflow-hidden" style={{ height: isMobile ? "300px" : "600px" }}>
+    <section className="relative overflow-hidden container mx-auto" style={{ height: isMobile ? "300px" : "600px" }}>
       {slides.map((slide, index) => (
         <div
           key={slide.id}

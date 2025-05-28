@@ -83,7 +83,7 @@ export function FeaturedApps() {
   const visibleApps = featuredApps.slice(currentIndex, currentIndex + itemsPerView)
 
   return (
-    <section className="py-16 bg-gray-50">
+    <section className="py-16 bg-gradient-to-b from-white via-blue-100 to-blue-200">
       <div className="container mx-auto px-4">
         <AnimatedSection>
           <div className="flex items-center justify-between mb-8">
