@@ -43,8 +43,9 @@ export function CategorySection() {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {categories.map((category, index) => (
-            <AnimatedSection key={category.id} delay={index * 200}>
-              <Card className="group cursor-pointer transition-all duration-300 hover:shadow-xl hover:-translate-y-2 bg-white border-0 shadow-lg">
+            <AnimatedSection key={category.id} delay={index * 200} >
+              <Card className="group cursor-pointer transition-all duration-300 hover:shadow-xl hover:-translate-y-2 bg-gradient-to-r from-green-100 via-blue-100 to-purple-100 border-0 shadow-lg"
+                style={{ height: "100%" }}>
                 <CardContent className="p-0">
                   <div className="relative overflow-hidden rounded-t-lg">
                     <Image
