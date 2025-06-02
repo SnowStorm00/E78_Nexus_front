@@ -107,7 +107,7 @@ export function HeroCarousel() {
     if (slide.type === "image") {
       return (
         <a
-          href={slide.link}
+          // href={slide.link}
           className={`carouselSlideImage_content carouselSlideImage_content--fit carouselSlideImage_content--text-size-${slide.textSize}`}
           style={{
             "--title-color": "rgba(255, 255, 255, 1)",
