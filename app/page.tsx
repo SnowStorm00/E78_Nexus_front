@@ -9,7 +9,7 @@ export default function HomePage() {
   return (
     <div className="min-h-screen bg-white">
       <Header />
-      <main>
+      <main style={{ background: "linear-gradient(135deg, #f5f7fa, #c3cfe2)" }}>
         <HeroCarousel />
         <FeaturedApps />
         <CategorySection />
